@@ -1,0 +1,365 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container {
+
+    margin-top: 20px;
+}
+
+.navbar__mainlogo img {
+    width: 188px;
+    height: 40px;
+}
+
+.navbar__menu-one,
+.navbar__Preferences {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.navbar__menu-one {
+    gap: 25px;
+    cursor: pointer;
+}
+
+.navbar__Preferences {
+    gap: 10px;
+    cursor: pointer;
+}
+
+.navbar__Preferences__signin {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.navbar nav {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 24px;
+    margin-left: 156px;
+    margin-right: 157px;
+
+}
+
+.container__title {
+    text-align: center;
+    font-size: 54px;
+    padding: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container__main-menu {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.container__main-menu img {
+    width: 24px;
+    height: 24px;
+}
+
+.container__main-menu div {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.container__searchbar {
+    display: flex;
+    height: 50px;
+    border-radius: 30px;
+    width: 70%;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+
+
+}
+
+.container__searchbar img {
+    width: 35px;
+    height: 35px;
+}
+
+.container__searchbar p {
+    background-color: #34E0A1;
+    padding: 15px;
+    border-radius: 50px;
+    font-weight: bolder;
+
+
+}
+
+.container__searchbar input {
+    width: 100%;
+    border: none;
+    margin: 10px;
+    font-size: 18px;
+    outline: none;
+
+}
+
+.container__coverphoto {
+    display: flex;
+    margin-top: 75px;
+    position: relative;
+    width: 80%;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container__coverphoto img {
+    background-color: #DACEFE;
+    width: 100%;
+    height: 200%;
+    border-radius: 20px;
+}
+
+.imgtext {
+    background-color: transparent;
+    position: absolute; 
+    top: 17%;
+    left: 14%;
+    font-size: 12px;
+}
+
+.img__beta {
+    cursor: text;   
+    background-color: white;
+    color: black;
+    font-weight: bolder; 
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.img__middiletext {
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 100%;
+    font-size: 56px;
+    font-weight: bold;
+    width: 300%;
+}
+
+.img__bottumtext {
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    top: 700%;
+    font-size: 20px;
+    width: 330%;
+    margin-top: 10%;
+}
+.img__button{
+    cursor: pointer;
+    display: block;
+    gap: 20px;
+    border: none;
+    background-color: #301D48;
+    color: white;
+    position: absolute;
+    top: 1050%;
+    left: 10%;
+    border-radius: 20px;
+    width: 200%;
+    height: 200%;
+}
+
+.container__coverphoto h1,
+.container__coverphoto p {
+    position: absolute;
+    color: white;
+    padding: 10px;
+}
+
+.container__coverphoto__title {
+
+    font-size: 54px;
+    bottom: 80px;
+}
+
+.container__coverphoto_text {
+
+    bottom: 60px;
+}
+
+.container__coverphoto__button {
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    bottom: 15px;
+    left: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container__title-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+
+.container__title-one__text {
+    margin-bottom: 20px;
+}
+
+.container__photocard {
+    display: inline-flex;
+
+    gap: 15px;
+}
+
+
+.container__photocard__item img {
+    border-radius: 15px;
+    width: 100%;
+
+}
+
+.container__photocard__item img:hover {
+    opacity: 0.8;
+    transition: 400ms;
+}
+
+.container__photocard__item {
+    position: relative;
+}
+
+.container__photocard__item__heart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px;
+}
+
+.container__recentsearches {
+    margin-top: 75px;
+
+}
+
+.container__recentsearches h2 {
+    margin-bottom: 15px;
+}
+
+.container__recentsearches img {
+    width: 24px;
+}
+
+.container__recentsearches__two {
+    border: solid grey 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+    gap: 10px;
+    width: fit-content;
+}
+
+.container__recentsearches__two:hover {
+    background-color: black;
+    color: white;
+}
+
+.container__photocard__item--topexperiences {
+    width: 25%;
+}
+
+.container__photocard__item--topexperiences h6 {
+    background-color: white;
+    border: solid black 1px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+
+}
+
+video {
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container__title-one--video {
+    margin-top: 30px;
+}
+
+.container__Traveller-choice {
+    background-color: #FFF7E1;
+    display: flex;
+}
+
+.container__Traveller-choice__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 26px 0px 26px;
+}
+
+.container__Traveller-choice__left img {
+    width: 80px;
+    height: 76px;
+
+}
+
+.container__Traveller-choice__left h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    padding: 10px 200px 20px 0px;
+}
+
+.container__Traveller-choice__left h5 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.container__Traveller-choice__rigt img {
+    width: 556px;
+    height: 600px;
+    aspect-ratio: 1/1;
+}
